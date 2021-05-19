@@ -13,10 +13,16 @@ inicio
    escreva ("Qual e sua altura em metros: ")
    leia (a)
    imc <- (m/(a^2))
-   escreva ("Seu IMC e de: " ,imc:2:2)
-   se (imc>=18.5) e (imc<25) entao
-      escreva (" Voce esta no peso ideal")
+   escreval ("Seu IMC e de: " ,imc:2:2)
+   se (imc<17) entao
+      escreval ("Voce esta muito abaixo do peso ideal")
    senao
-        escreva (" voce nao esta no peso ideal")
+      se (imc>25) entao
+         escreval ("Voce esta muito acima do peso")
+      senao
+           se (imc>=18.5) e (imc<25) entao
+              escreval ("Voce esta no peso ideal")
+           fimse
+      fimse
    fimse
 fimalgoritmo
