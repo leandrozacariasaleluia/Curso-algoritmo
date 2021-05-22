@@ -10,8 +10,14 @@ inicio
 // Seção de Comandos 
    para l<-1 ate 3 faca
         para c<-1 ate 2 faca
-             escreval("digite um numero [",l,",",c,"]:" )
+             escreva("digite um numero [",l,",",c,"]:" )
              leia (m[l,c])
         fimpara
    fimpara
+        para l<-1 ate 3 faca
+             para c<-1 ate 2 faca
+                  escreva (m[l,c])
+             fimpara
+                    escreval ()
+        fimpara
 fimalgoritmo
